@@ -13,5 +13,6 @@ class HomeActivity : AppCompatActivity() {
         //receiving data sent from previous activity
         val username = intent.getStringExtra("username")
         tvname.text = username
+        //comment here
     }
 }
